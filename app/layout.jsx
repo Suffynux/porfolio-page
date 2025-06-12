@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <FontAwesomeConfig />
              </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased w-full `}
       >
         {children}
       </body>

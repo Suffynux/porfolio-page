@@ -11,11 +11,13 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 const Hero = () => {
   return (
-    <main className="font-mono w-full block ">
-      <section className="bg-[url(/Images/hero-banner.png)] min-h-screen w-full h-full">
+    <main className="font-mono w-full block xl:w-full">
+      {/* /<section className="bg-[url(/Images/hero-banner.png)] min-h-screen w-full h-full bg-no-repeat bg-cover"> */}
+      <section className="bg-[url(/Images/hero-banner.png)] min-h-screen w-screen h-full bg-cover bg-center bg-no-repeat ">
+
         <div className="text-center pt-10">
-          <h1 className="text-xd md:text-2xl hover:bg-gray-800 hover:font-medium">
-            <span className="text-s md:text-[100px] bold italic ">Hi,</span> I
+          <h1 className="text-xd md:text-2xl hover:bg-gray-800 hover:font-medium pt-20 ">
+            <span className="text-xl lg:text-[100px] bold italic ">Hi,</span> I
             am a professional Web developer{" "}
           </h1>
         </div>
