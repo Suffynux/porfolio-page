@@ -21,9 +21,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/fav.ico" />
         <FontAwesomeConfig />
              </head>
       <body
+      
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-full `}
       >
         {children}
