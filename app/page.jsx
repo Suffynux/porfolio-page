@@ -15,7 +15,7 @@ export default function Home() {
 
 
   
-  <Example  className="flex "/>
+  <Example/>
   <Hero  />
   <Portfolio/>
   <About/>
